@@ -1,0 +1,64 @@
+{
+  "company_name":{
+    "0":"KIA"
+  },
+  "verdict":{
+    "0":"\u2705 LEGITIMATE"
+  },
+  "composite_score":{
+    "0":80.0
+  },
+  "detailed_checks":{
+    "0":{
+      "mca":{
+        "status":"REGISTERED",
+        "confidence":90,
+        "source":"MCA",
+        "detail":"Legally registered with MCA"
+      },
+      "msme":{
+        "status":"UNREGISTERED",
+        "confidence":30,
+        "source":"MSME"
+      },
+      "rbi_nbfc":{
+        "is_registered":false,
+        "confidence":70,
+        "source":"RBI",
+        "detail":"Not found in RBI NBFC lists"
+      },
+      "zauba":{
+        "has_trade_history":true,
+        "confidence":80,
+        "source":"Zauba",
+        "detail":"Active trade history exists"
+      },
+      "domain":{
+        "domain":"kia.com",
+        "age_years":28.5,
+        "registrar":"Megazone Corp., dba HOSTING.KR",
+        "confidence":100,
+        "source":"WHOIS",
+        "detail":"Domain registered for 28.5 years with Megazone Corp., dba HOSTING.KR"
+      },
+      "news":{
+        "scam_reports":[
+
+        ],
+        "confidence":100,
+        "source":"News Media",
+        "detail":"No scam reports found"
+      }
+    }
+  },
+  "weighting_used":{
+    "0":{
+      "mca":"35%",
+      "msme":"15%",
+      "rbi_nbfc":"10%",
+      "domain":"20%",
+      "zauba":"15%",
+      "news":"5%"
+    }
+  }
+}
